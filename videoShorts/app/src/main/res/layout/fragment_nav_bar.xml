@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp">
+
+    <ImageButton
+        android:id="@+id/buttonHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/home"
+        android:padding="8dp"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/buttonBrowse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/browse"
+        android:padding="8dp"
+        android:src="@drawable/browse" />
+
+    <ImageButton
+        android:id="@+id/buttonProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/profile"
+        android:padding="8dp"
+        android:src="@drawable/profile" />
+
+</LinearLayout>
