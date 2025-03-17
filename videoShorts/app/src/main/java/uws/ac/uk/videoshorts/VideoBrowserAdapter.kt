@@ -62,13 +62,13 @@ class VideoBrowserAdapter(
         holder.job?.cancel()
     }
 
-    // Clean up the adapter's coroutine scope when detached
+    // Clean up the coroutine scope
     override fun onDetachedFromRecyclerView(recyclerView: RecyclerView) {
         super.onDetachedFromRecyclerView(recyclerView)
         scope.cancel()
     }
 
-    // Function to retrieve a frame from the video using MediaMetadataRetriever.
+    // Function to retrieve a frame from the video
     private fun retrieveFrame(videoUrl: String): Bitmap? {
         val retriever = MediaMetadataRetriever()
         return try {
