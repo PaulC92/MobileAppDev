@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1019453058335",
+    "project_id": "loginsignupapp-7b5ec",
+    "storage_bucket": "loginsignupapp-7b5ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019453058335:android:33a5a79a9ec6dabbec542a",
+        "android_client_info": {
+          "package_name": "uws.ac.uk.appbar.loginandregister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQVykVdvwyjyPZMo8BDf6gxztia6zz0YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019453058335:android:2d8c22bcd0e79d63ec542a",
+        "android_client_info": {
+          "package_name": "uws.ac.uk.videoshorts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQVykVdvwyjyPZMo8BDf6gxztia6zz0YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
