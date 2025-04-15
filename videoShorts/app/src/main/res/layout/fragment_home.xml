@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/layout_video_browser"
+    android:id="@+id/layout_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="8dp"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".VideoBrowserFragment">
+    tools:context=".HomeFragment">
+
+    <!-- Personalized Greeting -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Username!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
 
     <!-- Video Grid -->
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerVideoBrowser"
+        android:id="@+id/recyclerHomeVideos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:clipToPadding="false"
         android:padding="4dp" />
-
 </LinearLayout>

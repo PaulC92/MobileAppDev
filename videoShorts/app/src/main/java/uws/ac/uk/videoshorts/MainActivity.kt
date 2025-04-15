@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-        // 👇 Optional: Only use this during development to force logout on every launch
+        // Only use this during development to force logout on every launch
         // auth.signOut()
 
         if (savedInstanceState == null) {

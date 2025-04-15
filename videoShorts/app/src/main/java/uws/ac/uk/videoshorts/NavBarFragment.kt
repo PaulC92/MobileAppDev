@@ -27,12 +27,12 @@ class NavBarFragment : Fragment() {
         val buttonBrowse = view.findViewById<ImageButton>(R.id.buttonBrowse)
         val buttonProfile = view.findViewById<ImageButton>(R.id.buttonProfile)
 
-        /* buttonHome.setOnClickListener {
+        buttonHome.setOnClickListener {
             // Replace content fragment with a home fragment
             parentFragmentManager.beginTransaction()
                 .replace(R.id.mainContentFragmentContainer, HomeFragment())
                 .commit()
-        } */ // NEED TO CREATE A HOME FRAGMENT
+        }
 
         buttonBrowse.setOnClickListener {
             // Replace content fragment with the video browser fragment
@@ -41,11 +41,11 @@ class NavBarFragment : Fragment() {
                 .commit()
         }
 
-        /* buttonProfile.setOnClickListener {
+        buttonProfile.setOnClickListener {
             // Replace content fragment with a profile fragment
             parentFragmentManager.beginTransaction()
                 .replace(R.id.mainContentFragmentContainer, ProfileFragment())
                 .commit()
-        } */ // NEED TO CREATE A PROFILE FRAGMENT
+        }
     }
 }

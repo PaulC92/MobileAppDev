@@ -35,7 +35,7 @@ class LoginFragment : Fragment() {
 
                             // Replace with video browser manually
                             parentFragmentManager.beginTransaction()
-                                .replace(R.id.mainContentFragmentContainer, VideoBrowserFragment())
+                                .replace(R.id.mainContentFragmentContainer, HomeFragment())
                                 .commit()
                         } else {
                             Toast.makeText(context, "Login Failed", Toast.LENGTH_SHORT).show()
